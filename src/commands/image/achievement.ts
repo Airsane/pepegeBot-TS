@@ -8,7 +8,6 @@ module.exports = {
     run: async (client: ClientCustom, message: Message, args) => {
         if(args.length < 1)
             return
-        let msg = await message.channel.send("Počkejte prosím..") as Message;
         const { body } = await superagent.get('https://www.minecraftskinstealer.com/achievement/a.php')
         .query({
             i: 1,

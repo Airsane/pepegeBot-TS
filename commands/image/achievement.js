@@ -16,7 +16,6 @@ module.exports = {
     run: (client, message, args) => __awaiter(void 0, void 0, void 0, function* () {
         if (args.length < 1)
             return;
-        let msg = yield message.channel.send("Počkejte prosím..");
         const { body } = yield superagent.get('https://www.minecraftskinstealer.com/achievement/a.php')
             .query({
             i: 1,

@@ -10,8 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_js_1 = require("discord.js");
-const Axios = require("axios");
-const axios = Axios.default;
+const axios = require('axios').default;
 module.exports = {
     name: "love",
     category: "image",

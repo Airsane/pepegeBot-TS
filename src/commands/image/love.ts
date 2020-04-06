@@ -1,7 +1,6 @@
 import { ClientCustom } from "../../BotClient";
 import { Message, RichEmbed } from "discord.js";
-import * as Axios from "axios";
-const axios = Axios.default;
+const axios = require('axios').default;
 
 module.exports = {
     name: "love",
